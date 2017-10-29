@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+
+        android:text="1"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/bmw" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/carId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="辽A10001"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/carUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车主：张三"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/carBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="15dp"
+        android:text="余额：100元"
+        android:textColor="#000000" />
+
+    <CheckBox
+        android:id="@+id/carChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="6dp"
+        style="@style/CustomCheckboxTheme"
+         />
+
+    <Button
+        android:id="@+id/carRecharge"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="充值"
+        android:textColor="#000000" />
+
+
+</FrameLayout>

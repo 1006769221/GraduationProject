@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:id="@+id/group1">
+
+        <item
+            android:id="@+id/nav_user"
+            android:title="账户管理"
+            />
+        />
+    </group>
+
+    <group android:id="@+id/group2">
+
+        <item
+            android:id="@+id/nav_bus"
+            android:title="公交查询" />
+    </group>
+
+    <group android:id="@+id/group3">
+
+        <item
+            android:id="@+id/nav_light"
+            android:title="红绿灯管理" />
+    </group>
+    <group android:id="@+id/group4">
+
+        <item
+            android:id="@+id/nav_llegal"
+            android:title="车辆违章" />
+    </group>
+    <group android:id="@+id/group5">
+
+        <item
+            android:id="@+id/nav_road"
+            android:title="路况查询" />
+    </group>
+    <group android:id="@+id/group6">
+
+        <item
+            android:id="@+id/nav_life"
+            android:title="生活助手" />
+    </group>
+</menu>
